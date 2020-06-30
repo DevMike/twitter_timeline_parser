@@ -1,0 +1,14 @@
+%h1 Twitter Timeline Search
+
+%p.error= flash[:alert]
+%p.notice= flash[:notice]
+
+= form_with(url: "/search", method: "get", validate: true) do
+  = label_tag(:start_date, "Start Date")
+  = text_field_tag(:start_date, 1.week.ago.to_date.strftime("%d-%m-%Y"), required: true)
+  = label_tag(:end_date, "End Date")
+  = text_field_tag(:end_date, Date.today.strftime("%d-%m-%Y"), required: true)
+  = label_tag(:email, "Email")
+  = text_field_tag(:email, nil, required: true)
+  %br
+  %p= submit_tag("Submit")
