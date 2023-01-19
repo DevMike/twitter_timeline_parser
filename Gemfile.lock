@@ -78,7 +78,7 @@ GEM
     carrot-top (0.0.7)
       json
     childprocess (3.0.0)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.1.10)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     crass (1.0.6)
@@ -96,8 +96,8 @@ GEM
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
+    globalid (1.0.1)
+      activesupport (>= 5.0)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -129,7 +129,7 @@ GEM
       bunny (>= 2.15, < 2.16)
       carrot-top (~> 0.0.7)
       multi_json (~> 1.14)
-    i18n (1.8.3)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
@@ -150,7 +150,7 @@ GEM
     mimemagic (0.3.5)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.14.1)
+    minitest (5.17.0)
     msgpack (1.3.3)
     multi_json (1.14.1)
     multipart-post (2.1.1)
@@ -267,7 +267,7 @@ GEM
       multipart-post (~> 2.0)
       naught (~> 1.0)
       simple_oauth (~> 0.3.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -295,7 +295,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.3.0)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
